@@ -2,10 +2,10 @@
 
 namespace Uccello\Country\Models;
 
-use Illuminate\Database\Eloquent\Model;
+use App\Models\UccelloModel;
 use Uccello\Core\Support\Traits\UccelloModule;
 
-class Country extends Model
+class Country extends UccelloModel
 {
     use UccelloModule;
 
